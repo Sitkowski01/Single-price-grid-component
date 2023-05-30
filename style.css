@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: #E6EFF5;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.table{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 1.5fr 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+     flex-direction: column;
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+    background-color: white;
+    gap: 15px;
+    padding: 5% 5% 5%;
+    border-radius: 8px 8px 0 0 ;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column: 3 / 4;
+    grid-row: 4 / 7;
+    gap: 20px;
+    background-color: #2AB3B1;
+    padding: 5% 10% 5%;
+    border-radius: 0 0 0 8px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    grid-column: 4 / 5;
+    grid-row: 4 / 7;
+    background-color: hsl(179, 62%, 43%,0.8);
+    padding: 5% 10% 5%;
+    gap: 25px;
+    border-radius: 0 0 8px 0;
+}
+.first-title{
+    color: #2AB3B1;
+    font-size: 24px;
+    font-weight: 700;
+}
+.first-subtitle{
+    color: #C0DF33;
+    font-size: 18px;
+    font-weight: 700;
+}
+.first-text{
+    color: #9AA7BE;
+    width: 90%;
+}
+.second-title{
+    color: white;
+    font-weight: 700;
+}
+.second-subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 200;
+}
+.dollars{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+.second-access{
+    color: white;
+}
+.button{
+    padding: 5% 34%;
+    margin-top: 15px;
+    background-color: #C0DF33;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.three-text{
+    line-height: 1.5;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.three-title{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.footer{
+    position: fixed;
+    bottom: 4%;
+    left: 49%;
+    transform: translateX(-50%);
+    font-size: 18px;
+}
+a{
+   text-decoration: none;
+   color: #2AB3B1;
+}
+a:hover{
+    color: #24ccc9;
+}
+@media (max-width: 375px) {
+    .first{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+         flex-direction: column;
+        grid-column: 2 / 6;
+        grid-row: 2 / 4;
+        background-color: white;
+        gap: 15px;
+        padding: 5% 5% 5%;
+        border-radius: 0;
+    }
+    .second{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        grid-column: 2 / 6;
+        grid-row: 4 / 6;
+        gap: 10px;
+        background-color: #2AB3B1;
+        padding: 5% 10% 5%;
+        border-radius: 0;
+    }
+    .three{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        grid-column: 2 / 6;
+        grid-row: 6 / 8;
+        background-color: hsl(179, 62%, 43%,0.8);
+        padding: 5% 10% 5%;
+        gap: 15px;
+        border-radius: 0;
+    }
+    .first-title{
+        color: #2AB3B1;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .first-subtitle{
+        color: #C0DF33;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .first-text{
+        color: #9AA7BE;
+        width: 90%;
+        font-size: 12px;
+    }
+    .second-title{
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .second-subtitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        gap: 15px;
+        color: hsl(204, 43%, 93%);
+        font-weight: 200;
+    }
+    .dollars{
+        color: white;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .second-access{
+        color: white;
+        font-size: 14px;
+    }
+    .button{
+        padding: 3% 34%;
+        margin-top: 5px;
+        background-color: #C0DF33;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+    .three-text{
+        line-height: 1.3;
+        font-size: 12px;
+        color: white;
+        font-weight: 300;
+    }
+    .three-title{
+        font-size: 14px;
+        color: white;
+        font-weight: 700;
+    }
+    .footer{
+        display: none;
+    }
+}
