@@ -135,7 +135,7 @@ a:hover{
         grid-row: 2 / 4;
         background-color: white;
         gap: 15px;
-        padding: 5% 5% 5%;
+        padding: 10% 2% 10% 5%;
         border-radius: 0;
     }
     .second{
