@@ -227,5 +227,6 @@ a:hover{
    .button:hover
     {
     cursor:pointer;
+    border:none;
     }
 }
