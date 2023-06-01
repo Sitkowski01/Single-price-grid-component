@@ -93,6 +93,7 @@ body{
     color: white;
     border-radius: 5px;
     font-weight: 700;
+    border: none;
 }
 .three-text{
     line-height: 1.5;
@@ -118,6 +119,9 @@ a{
 }
 a:hover{
     color: #24ccc9;
+}
+.button:hover{
+    cursor:pointer;
 }
 @media (max-width: 600px) {
     .table{
