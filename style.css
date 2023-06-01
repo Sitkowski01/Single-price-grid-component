@@ -63,7 +63,8 @@ body{
 }
 .first-text{
     color: #9AA7BE;
-    width: 95%;
+    width: 100%;
+    font-size: 15px;
 }
 .second-title{
     color: white;
