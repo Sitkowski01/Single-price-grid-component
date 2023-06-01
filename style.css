@@ -224,9 +224,4 @@ a:hover{
     .footer{
         display: none;
     }
-   .button:hover
-    {
-    cursor:pointer;
-    border:none;
-    }
 }
